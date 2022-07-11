@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	background-color: rgb(55, 56, 57);
+	color: rgb(201, 199, 189);
+}
+
+.app-header {
+	width: 100%;
+}
+
+.app-header h1 {
+	font-size: 296px;
+	font-family: monospace;
+	font-style: italic;
+	line-height: 1;
+	margin: 20px auto;
+	text-align: center;
+	color: rgb(201, 199, 189);
+}
+
+.profile-container {
+	display: flex;
+}
+.app-profile {
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	height: 700px;
+	box-sizing: border-box;
+}
+
+.profile-image-container {
+	position: absolute;
+}
+
+.profile-on-left {
+	right: 0;
+}
+
+.profile-image-container {
+	transition: transform 2s;
+	border-radius: 16px;
+    z-index: 2;
+}
+
+.app-profile-on-left:hover .profile-image-container {
+	transform: translateX(-400px);
+	transition: transform 2s;
+}
+
+.app-profile-on-right:hover .profile-image-container {
+	transform: translateX(400px);
+}
+
+.profile-image-container img {
+	height: 900px;
+	margin: auto;
+	border-radius: 16px;
+
+}
+
+.profile-info-container {
+	z-index: 1;
+	padding: 50px 10px;
+}
+
+.profile-info-container h2 a {
+	text-decoration: none;
+	color: rgb(201, 199, 189);
+}
+
+.profile-info-container h2 {
+	cursor: pointer;
+}
+
+.info-container-left {
+	position: absolute;
+	right: 0;
+}
