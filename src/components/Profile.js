@@ -13,11 +13,6 @@ const Profile = (props) => {
 		githubAddress,
 	} = props;
 
-	const slideFrame = (e) => {
-		// e.target.classList.add('left-frame')
-		console.log(e);
-	};
-
 	return (
 		<div
 			className={`app-profile ${
@@ -30,7 +25,7 @@ const Profile = (props) => {
 				}`}
 				// onMouseLeave={() => this.someOtherHandler}
 			>
-				<img src={imageSrc.default} alt={'anan'} onMouseEnter={slideFrame} />
+				<img src={imageSrc} alt={'profile pictures'}  />
 			</div>
 			<div className={`profile-info-container ${onLeft ? 'info-container-left' : ''}`}>
 				<h1>🧑 {nameInfo}</h1>
