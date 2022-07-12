@@ -28,13 +28,13 @@ const Profile = (props) => {
 				<img src={imageSrc} alt={'profile pictures'}  />
 			</div>
 			<div className={`profile-info-container ${onLeft ? 'info-container-left' : ''}`}>
-				<h1>🧑 {nameInfo}</h1>
-				<h2>💼 {workInfo}</h2>
-				<h2>🏠 {addressInfo || 'Istanbul'}</h2>
-				<h2>📧 {mailInfo}</h2>
-				<h2>📱 {phoneInfo}</h2>
-				<h2>🔗 <a href={`https://www.${linkedinAddress}`}  target={'_blank'}>{linkedinAddress}</a></h2>
-				<h2>🔗 <a href={`https://www.${githubAddress}`} target={'_blank'}>{githubAddress}</a> </h2>
+				<h2>🧑 {nameInfo}</h2>
+				<h3>💼 {workInfo}</h3>
+				<h3>🏠 {addressInfo || 'Istanbul'}</h3>
+				<h3>📧 {mailInfo}</h3>
+				<h3>📱 {phoneInfo}</h3>
+				<h3>🔗 <a href={`https://www.${linkedinAddress}`}  target={'_blank'}>{linkedinAddress}</a></h3>
+				<h3>🔗 <a href={`https://www.${githubAddress}`} target={'_blank'}>{githubAddress}</a> </h3>
 			</div>
 		</div>
 	);
