@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import defaultImageSrc from '../assets/template-image.png';
 const ArticleElement = (props) => {
-	const { imageSrc } = props;
+	console.log(props);
+	const { imageSrc, description, link } = props;
 	const hoverBackgroundRef = useRef(null);
 	const imageRef = useRef(null);
 
@@ -14,6 +15,10 @@ const ArticleElement = (props) => {
 		hoverBackgroundRef.current.style.animationName = 'displayNot';
 		imageRef.current.style.animationName = 'zoomOut';
 	};
+
+	const openLinkAddress = () => {
+		window.open(link, '_blank')
+	}
 	return (
 		<div
 			className="article-element"
@@ -21,9 +26,9 @@ const ArticleElement = (props) => {
 			onMouseLeave={displayNotHoverContainer}
 		>
 			<img ref={imageRef} src={`${imageSrc ? imageSrc : defaultImageSrc}`} />
-            <div ref={hoverBackgroundRef} className="hover-background">
+			<div ref={hoverBackgroundRef} onClick={openLinkAddress} className="hover-background">
 				<span>
-					lorem Imdsfodsakmasdfm dfadsşlf sfmsa dfm salkf msadlkfsad fsadfsalkd{' '}
+					{description}
 				</span>
 			</div>
 		</div>

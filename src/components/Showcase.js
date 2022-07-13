@@ -1,38 +1,36 @@
 import React from 'react';
 import ArticleElement from './ArticleElement';
 import ApplicationElement from './ApplicationElement';
-import defaultImageSrc from '../assets/template-image.png'
+import defaultImageSrc from '../assets/template-image.png';
+import { articleData } from '../data/articleData';
+import { applicationData } from '../data/applicationData';
 
 const Showcase = (props) => {
+	const articleElements = articleData.map((element) => {
+		return (
+			<ArticleElement
+				imageSrc={element.imageSrc}
+				link={element.link}
+				description={element.description}
+			/>
+		);
+	});
 
-    const articleList = [
-        {imageSrc : defaultImageSrc},
-        {imageSrc : defaultImageSrc},
-        {imageSrc : defaultImageSrc},
-        {imageSrc : defaultImageSrc},
-    ]
-    const articleElements = articleList.map((element) => {
-        return <ArticleElement props={element} />
-    })
-    const applicationList = [
-        {imageSrc : defaultImageSrc},
-        {imageSrc : defaultImageSrc},
-        {imageSrc : defaultImageSrc},
-        {imageSrc : defaultImageSrc},
-    ]
-    const applicationElements = applicationList.map((element) => {
-        return <ApplicationElement props={element} />
-    })
+	const applicationElements = applicationData.map((element) => {
+		return (
+			<ApplicationElement
+				imageSrc={element.imageSrc}
+				link={element.link}
+				description={element.description}
+			/>
+		);
+	});
 	return (
 		<div className="showcase-section">
 			<label>Articles</label>
-			<div className="article-showcase">
-                {articleElements}
-            </div>
+			<div className="article-showcase">{articleElements}</div>
 			<label>Applications</label>
-			<div className="application-showcase">
-                {applicationElements}
-            </div>
+			<div className="application-showcase">{applicationElements}</div>
 		</div>
 	);
 };
