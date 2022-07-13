@@ -14,8 +14,9 @@ const ProfileContainer = () => {
 				addressInfo={'Şişli / İstanbul'}
 				mailInfo={'akeskinw@gmail.com'}
 				phoneInfo={'+905384643518'}
-				linkedinAddress={'linkedin.com/in/alihankeskin/'}
+				linkedinAddress={'linkedin.com/in/alihankeskin'}
 				githubAddress={'github.com/Ardelon'}
+				mediumAddress={'medium.com/@akeskinw'}
 			/>
 			<Profile
 				imageSrc={berkay}
@@ -24,8 +25,9 @@ const ProfileContainer = () => {
 				addressInfo={'Kağıthane / İstanbul'}
 				mailInfo={'orucbe@gmail.com'}
 				phoneInfo={'+905384643518'}
-				linkedinAddress={'linkedin.com/in/berkayoruc/'}
+				linkedinAddress={'linkedin.com/in/berkayoruc'}
 				githubAddress={'github.com/berkayoruc'}
+				mediumAddress={'medium.com/@berkayoruc'}
 			/>
 		</div>
 	);

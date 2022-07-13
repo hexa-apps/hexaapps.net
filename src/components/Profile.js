@@ -11,6 +11,7 @@ const Profile = (props) => {
 		phoneInfo,
 		linkedinAddress,
 		githubAddress,
+		mediumAddress
 	} = props;
 
 	return (
@@ -35,6 +36,7 @@ const Profile = (props) => {
 				<h3>📱 {phoneInfo}</h3>
 				<h3>🔗 <a href={`https://www.${linkedinAddress}`}  target={'_blank'}>{linkedinAddress}</a></h3>
 				<h3>🔗 <a href={`https://www.${githubAddress}`} target={'_blank'}>{githubAddress}</a> </h3>
+				<h3>🔗 <a href={`https://www.${mediumAddress}`} target={'_blank'}>{mediumAddress}</a> </h3>
 			</div>
 		</div>
 	);
