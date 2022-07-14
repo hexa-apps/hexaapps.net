@@ -71,8 +71,18 @@ body {
 	color: rgb(201, 199, 189);
 }
 
+.profile-info-container h3 a:hover {
+	color: rgb(55, 56, 57);
+}
+
 .profile-info-container h2 {
 	cursor: pointer;
+}
+
+.profile-info-container h2:hover,
+.profile-info-container h3:hover {
+	color: rgb(55, 56, 57);
+	background-color: yellow;
 }
 
 .info-container-left {
@@ -125,6 +135,7 @@ body {
 
 
 .article-element {
+	border-radius: 16px;
 	margin: 5px 20px;
 	position: relative;
 	width: auto;
@@ -146,6 +157,7 @@ body {
 }
 
 .application-element {
+	border-radius: 16px;
 	margin: 5px 20px;
 	position: relative;
 	width: auto;

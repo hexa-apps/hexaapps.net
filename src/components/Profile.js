@@ -29,7 +29,7 @@ const Profile = (props) => {
 				<img src={imageSrc} alt={'profile pictures'}  />
 			</div>
 			<div className={`profile-info-container ${onLeft ? 'info-container-left' : ''}`}>
-				<h2>🧑 {nameInfo}</h2>
+				<h2>🧑🏽 {nameInfo}</h2>
 				<h3>💼 {workInfo}</h3>
 				<h3>🏠 {addressInfo || 'Istanbul'}</h3>
 				<h3>📧 {mailInfo}</h3>
