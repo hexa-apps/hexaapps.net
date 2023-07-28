@@ -42,13 +42,22 @@ body {
 
 .profile-image-container {
 	transition: transform 2s;
-	border-radius: 16px;
 	z-index: 2;
+	overflow: clip;
+}
+
+.profile-on-left {
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
 }
 
 .app-profile-on-left:hover .profile-image-container {
 	transform: translateX(-300px);
 	transition: transform 2s;
+}
+.profile-on-right {
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
 }
 
 .app-profile-on-right:hover .profile-image-container {
@@ -58,7 +67,6 @@ body {
 .profile-image-container img {
 	height: 700px;
 	margin: auto;
-	border-radius: 16px;
 }
 
 .profile-info-container {
@@ -105,17 +113,17 @@ body {
 .article-showcase {
 	display: flex;
 	flex-direction: row;
-	
+
 	overflow: scroll;
 	width: 100%;
 }
 
 .article-showcase {
-	-ms-overflow-style: none; 
+	-ms-overflow-style: none;
 	scrollbar-width: none;
 }
 .article-showcase::-webkit-scrollbar {
-	display: none; 
+	display: none;
 }
 .application-showcase {
 	display: flex;
@@ -127,12 +135,11 @@ body {
 
 .application-showcase {
 	-ms-overflow-style: none;
-	scrollbar-width: none; 
+	scrollbar-width: none;
 }
 .application-showcase::-webkit-scrollbar {
-	display: none; 
+	display: none;
 }
-
 
 .article-element {
 	border-radius: 16px;
@@ -141,7 +148,7 @@ body {
 	width: auto;
 	height: 300px;
 	overflow: hidden;
-	display: inline-block ;
+	display: inline-block;
 	flex-shrink: 0;
 }
 
