@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
 	return (
@@ -37,16 +38,14 @@ export default function Home() {
 					height={37}
 					priority
 				/> */}
-				<span className='mr-[-6px]'>HEXA</span>
-				<span className='ml-[-6px]'>APPS</span>
-				
+				<span className="mr-[-6px]">HEXA</span>
+				<span className="ml-[-6px]">APPS</span>
 			</div>
 
 			<div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-				<a
-					href="https://hexaapps.net/apps"
+				<Link
+					href="/apps"
 					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
 					rel="noopener noreferrer"
 				>
 					<h2 className={`mb-3 text-2xl font-semibold`}>
@@ -58,12 +57,11 @@ export default function Home() {
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
 						Find in-depth information about our applications and extensions.
 					</p>
-				</a>
+				</Link>
 
-				<a
-					href="https://hexaapps.net/blog"
+				<Link
+					href="/blog"
 					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
 					rel="noopener noreferrer"
 				>
 					<h2 className={`mb-3 text-2xl font-semibold`}>
@@ -75,12 +73,11 @@ export default function Home() {
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
 						Reach our writings.
 					</p>
-				</a>
+				</Link>
 
-				<a
-					href="https://alihan.hexaapps.net"
+				<Link
+					href="/alihan"
 					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
 					rel="noopener noreferrer"
 				>
 					<h2 className={`mb-3 text-2xl font-semibold`}>
@@ -92,13 +89,12 @@ export default function Home() {
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
 						Simple Frontend Developer.
 					</p>
-				</a>
+				</Link>
 
-				<a
-					href="https://berkay.hexaapps.net"
-					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-					target="_blank"
+				<Link
 					rel="noopener noreferrer"
+					className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+					href="/berkay"
 				>
 					<h2 className={`mb-3 text-2xl font-semibold`}>
 						Berkay{' '}
@@ -109,7 +105,7 @@ export default function Home() {
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
 						Simple Frontend Developer.
 					</p>
-				</a>
+				</Link>
 			</div>
 		</main>
 	);
