@@ -5,7 +5,7 @@ import SocialGrid from '../SocialGrid/SocialGrid';
 
 const Content = () => {
 	return (
-		<div className="flex flex-col pt-12 pb-6 max-w-screen-sm mx-auto px-6  gap-4">
+		<div className="h-fit flex flex-col pt-12 pb-6 max-w-screen-sm mx-auto px-6  gap-4">
 			<ContentTitle title={'Selamlar, Ben Berkay 🛰️'} />
 			<ContentParagraph>
 				Kodlamayı seven bir harita mühendisiyim. Profesyonel olarak web frontend
