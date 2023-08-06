@@ -8,12 +8,12 @@ const Content = () => {
 		<div className="h-fit flex flex-col pt-12 pb-6 max-w-screen-sm mx-auto px-6  gap-4">
 			<ContentTitle title="Hello, I'm Berkay 🛰️" />
 			<ContentParagraph>
-				I'm a geomatics engineer who loves to code. Although I work
+				I&apos;m a geomatics engineer who loves to code. Although I work
 				professionally as a web frontend developer, I also develop applications
 				for the Android and iOS ecosystem.
 			</ContentParagraph>
 			<ContentParagraph>
-				I like to develop applications that touch people's lives and to
+				I like to develop applications that touch people&apos;s lives and to
 				experience different technologies. Football and Formula 1 are at the
 				forefront of my interests. However, I can watch any sporting event
 				breathlessly 🏅
