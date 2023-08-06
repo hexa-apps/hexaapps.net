@@ -6,7 +6,7 @@ import SocialGrid from '../SocialGrid/SocialGrid';
 const Content = () => {
 	return (
 		<div className="h-fit flex flex-col pt-12 pb-6 max-w-screen-sm mx-auto px-6  gap-4">
-			<ContentTitle title={"Hello, I'm Berkay 🛰️"} />
+			<ContentTitle title="Hello, I'm Berkay 🛰️" />
 			<ContentParagraph>
 				I'm a geomatics engineer who loves to code. Although I work
 				professionally as a web frontend developer, I also develop applications
