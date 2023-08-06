@@ -6,21 +6,21 @@ import SocialGrid from '../SocialGrid/SocialGrid';
 const Content = () => {
 	return (
 		<div className="h-fit flex flex-col pt-12 pb-6 max-w-screen-sm mx-auto px-6  gap-4">
-			<ContentTitle title={'Selamlar, Ben Berkay 🛰️'} />
+			<ContentTitle title={"Hello, I'm Berkay 🛰️"} />
 			<ContentParagraph>
-				Kodlamayı seven bir harita mühendisiyim. Profesyonel olarak web frontend
-				geliştiricisi olarak çalışsam da, Android ve iOS ekosistemi için de
-				uygulamalar geliştiriyorum.
+				I'm a geomatics engineer who loves to code. Although I work
+				professionally as a web frontend developer, I also develop applications
+				for the Android and iOS ecosystem.
 			</ContentParagraph>
 			<ContentParagraph>
-				İnsanların hayatına dokunan uygulamalar geliştirmeyi, farklı
-				teknolojileri deneyimlemeyi seviyorum. İlgi alanlarımın başında futbol
-				ve Formula 1 geliyor. Ancak herhangi bir spor müsabakasını soluksuz
-				izleyebilirim 🏅
+				I like to develop applications that touch people's lives and to
+				experience different technologies. Football and Formula 1 are at the
+				forefront of my interests. However, I can watch any sporting event
+				breathlessly 🏅
 			</ContentParagraph>
 			<ContentParagraph>
-				Hakkımda daha fazla bilgiye ihtiyaç duyarsan, bana aşağıdaki platformlar
-				üzerinden ulaşabilirsin.
+				If you need more information about me, you can reach me on the following
+				platforms.
 			</ContentParagraph>
 			<SocialGrid
 				socialLinks={[
