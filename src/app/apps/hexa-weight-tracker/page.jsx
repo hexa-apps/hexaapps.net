@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Find My Thing",
-  description: "iOS app to help you find your things",
+  title: "Hexa Weight Tracker",
+  description: "Track your weight with an app that's as simple as it gets.",
 };
 
 export default function Apps() {
@@ -17,7 +17,7 @@ export default function Apps() {
           </h2>
         </Link>
         <div className="flex items-center justify-end grow h-full italic opacity-30">
-          Find My Thing
+          Hexa Weight Tracker
         </div>
       </header>
       <main className="pb-24 text-4xl "></main>
