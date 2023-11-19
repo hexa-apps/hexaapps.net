@@ -9,7 +9,7 @@ export default function Apps() {
   return (
     <div className="md:px-24 px-4">
       <header className="h-24 px-5 flex items-center">
-        <Link rel="noopener noreferrer" href="/apps">
+        <Link rel="noopener noreferrer" href="/">
           <h2 className="mb-3 text-2xl font-semibold cursor-pointer">
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               &lt;-
