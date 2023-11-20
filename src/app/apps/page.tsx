@@ -29,6 +29,12 @@ export default function Apps() {
             description="100times.blog"
             target="_blank"
           />
+          <AppButton
+            appURL="https://sandalyemisarjet.com/"
+            appName="Sandalyemi Şarj Et"
+            description="Belediyelerin ücretsiz şarj istasyonlarını bulun."
+            target="_blank"
+          />
         </div>
       </main>
     </Layout>
