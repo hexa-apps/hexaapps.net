@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Layout from "./components/Layout";
 import Header from "./components/Header";
 import AppButton from "./components/AppButton";
