@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Apps() {
   return (
-    <div className="md:px-24 px-4 select-none">
+    <div className="md:px-24 px-4 select-none h-[100svh]">
       <header className="h-24 px-5 flex items-center">
         <Link rel="noopener noreferrer" href="/">
           <h2 className="mb-3 text-2xl font-semibold cursor-pointer">
