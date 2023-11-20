@@ -1,6 +1,6 @@
 import screenshot from "../assets/screenshot-fmt.png";
-import Layout from "../components/Layout";
-import Header from "../components/Header";
+import Layout from "../../components/Layout";
+import Header from "../../components/Header";
 import AppContent from "../components/AppContent";
 
 export const metadata = {

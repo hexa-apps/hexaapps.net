@@ -1,6 +1,6 @@
-import Layout from "./components/Layout";
-import Header from "./components/Header";
-import AppButton from "./components/AppButton";
+import Layout from "../components/Layout";
+import Header from "../components/Header";
+import AppButton from "../components/AppButton";
 
 export const metadata = {
   title: "Apps",

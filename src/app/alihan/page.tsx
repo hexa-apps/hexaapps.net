@@ -1,6 +1,5 @@
-import Layout from "../components/Layout";
 import Header from "../components/Header";
-import Content from "./components/Content/Content";
+import Layout from "../components/Layout";
 
 export const metadata = {
   title: "Berkay - Hexaapps",
@@ -10,8 +9,8 @@ export const metadata = {
 export default function Apps() {
   return (
     <Layout>
-      <Header backPath="/" appName="Berkay" />
-      <Content />
+      <Header backPath="/" appName="Alihan" />
+      <span>bla bla bla</span>
     </Layout>
   );
 }
