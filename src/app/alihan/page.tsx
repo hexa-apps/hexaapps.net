@@ -1,3 +1,4 @@
+import Content from "../berkay/components/AlihanContent/Content";
 import Header from "../components/Header";
 import Layout from "../components/Layout";
 
@@ -10,7 +11,7 @@ export default function Apps() {
   return (
     <Layout>
       <Header backPath="/" appName="Alihan" />
-      <span>bla bla bla</span>
+      <Content />
     </Layout>
   );
 }
