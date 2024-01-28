@@ -26,7 +26,13 @@ export default function Apps() {
           <AppButton
             appURL="https://100times.blog/home/"
             appName="100times.blog"
-            description="100times.blog"
+            description="Ai generated entreprenerual blog."
+            target="_blank"
+          />
+          <AppButton
+            appURL="https://sandalyemisarjet.com/"
+            appName="Sandalyemi Şarj Et"
+            description="Belediyelerin ücretsiz şarj istasyonlarını bulun."
             target="_blank"
           />
         </div>
