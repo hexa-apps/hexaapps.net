@@ -1,4 +1,4 @@
-import screenshot from "../assets/screenshot-fmt.png";
+import screenshot from "../assets/screenshot-breather.png";
 import Layout from "../../components/Layout";
 import Header from "../../components/Header";
 import AppContent from "../components/AppContent";
