@@ -35,6 +35,11 @@ export default function Apps() {
             description="Belediyelerin ücretsiz şarj istasyonlarını bulun."
             target="_blank"
           />
+          <AppButton
+            appURL="/apps/breather"
+            appName="Breather"
+            description="iOS app to help you about breathing exercises."
+          />
         </div>
       </main>
     </Layout>
