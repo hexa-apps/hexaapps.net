@@ -3,8 +3,8 @@ import Header from "../components/Header";
 import Layout from "../components/Layout";
 
 export const metadata = {
-  title: "Berkay - Hexaapps",
-  description: "Berkay Oruç Personal Website",
+  title: "Alihan - Hexaapps",
+  description: "Alihan Keskin Personal Website",
 };
 
 export default function Apps() {
