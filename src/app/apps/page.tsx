@@ -53,6 +53,11 @@ export default function Apps() {
             appName="Breather"
             description="iOS app to help you about breathing exercises."
           />
+          <AppButton
+            appURL="/apps/blurry"
+            appName="Blurry"
+            description="AI Text Editor allows you to quickly and easily detect and edit text within your images."
+          />
         </div>
       </main>
     </Layout>
