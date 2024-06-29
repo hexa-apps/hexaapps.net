@@ -15,7 +15,7 @@ export default function Apps({
 }: {
   searchParams?: { [key: string]: string | string[] | undefined };
 }) {
-  const appURL = "https://apps.apple.com/us/developer/berkay-oruc/id1636040465";
+  const appURL = "https://apps.apple.com/us/app/blurry-text-privacy/id6504585179";
   const androidAppUrl =
     "https://play.google.com/store/apps/details?id=com.hexaapps.hexa_blurry";
   const appName = "Blurry";
