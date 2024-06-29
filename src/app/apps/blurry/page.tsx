@@ -15,8 +15,7 @@ export default function Apps({
 }: {
   searchParams?: { [key: string]: string | string[] | undefined };
 }) {
-  const appURL =
-    "https://play.google.com/store/apps/details?id=com.hexaapps.hexa_blurry";
+  const appURL = "https://apps.apple.com/us/developer/berkay-oruc/id1636040465";
   const androidAppUrl =
     "https://play.google.com/store/apps/details?id=com.hexaapps.hexa_blurry";
   const appName = "Blurry";
@@ -37,7 +36,7 @@ export default function Apps({
           screenshot={screenshot}
           title="Secure your privacy"
           p="AI Text Editor allows you to quickly and easily detect and edit text within your images! Utilizing cutting-edge artificial intelligence, our app automatically identifies text in your pictures and lets you highlight, blur, or completely hide it as per your needs."
-          //   appURL={appURL}
+          appURL={appURL}
           androidAppUrl={androidAppUrl}
         />
       </Layout>
