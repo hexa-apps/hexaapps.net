@@ -1,6 +1,8 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 
+import "./style.css"
+
 const TermsPage = () => {
   const termsContent = `
 # Terms and Conditions  
@@ -51,7 +53,6 @@ If you have any questions about these Terms, please contact us at hexagameapps@g
 
   return (
     <div className="terms-container">
-      <h1>Terms and Conditions</h1>
       <ReactMarkdown>{termsContent}</ReactMarkdown>
     </div>
   );
