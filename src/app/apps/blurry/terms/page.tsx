@@ -9,7 +9,7 @@ const TermsPage = () => {
 
       <h2>1. Introduction</h2>
       <p>
-        Welcome to <strong>Find My Thing</strong>! These Terms and Conditions
+        Welcome to <strong>Blurry</strong>! These Terms and Conditions
         govern your use of the application ("App"), available on iOS, and any
         related services provided. By accessing or using the App, you agree to
         be bound by these Terms.
@@ -18,8 +18,8 @@ const TermsPage = () => {
       <h2>2. Use of the App</h2>
       <ul>
         <li>
-          <strong>Purpose</strong>: The App allows users to save information
-          about things, such as parking spots, and optionally save locations.
+          <strong>Purpose</strong>: [The App allows users to save information
+          about things, such as parking spots, and optionally save locations.]
         </li>
         <li>
           <strong>Account Creation</strong>: Users are not required to create an
