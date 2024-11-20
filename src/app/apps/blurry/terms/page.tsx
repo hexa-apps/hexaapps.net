@@ -9,8 +9,8 @@ const TermsPage = () => {
 
       <h2>1. Introduction</h2>
       <p>
-        Welcome to <strong>Blurry</strong>! These Terms and Conditions
-        govern your use of the application ("App"), available on iOS, and any
+        Welcome to <strong>Blurry</strong>! These Terms and Conditions govern
+        your use of the application {'("App")'}, available on iOS, and any
         related services provided. By accessing or using the App, you agree to
         be bound by these Terms.
       </p>
@@ -76,20 +76,23 @@ const TermsPage = () => {
         </li>
         <li>
           For more details, please refer to our{" "}
-          <a href="https://gist.github.com/berkayoruc/a69b1caf1d060a0c78a174ac8c0ccd7d">Privacy Policy</a>.
+          <a href="https://gist.github.com/berkayoruc/a69b1caf1d060a0c78a174ac8c0ccd7d">
+            Privacy Policy
+          </a>
+          .
         </li>
       </ul>
 
       <h2>6. Intellectual Property</h2>
       <p>
         All content, trademarks, and other intellectual property in the App are
-        owned by Hexaapps and are protected under applicable Turkish
-        laws and international agreements.
+        owned by Hexaapps and are protected under applicable Turkish laws and
+        international agreements.
       </p>
 
       <h2>7. Limitation of Liability</h2>
       <p>
-        The App is provided on an "as-is" basis. We do not guarantee
+        The App is provided on an {'"as-is"'} basis. We do not guarantee
         uninterrupted or error-free service. We are not liable for any damages
         resulting from your use of the App.
       </p>
