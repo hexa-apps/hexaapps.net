@@ -19,7 +19,7 @@ Welcome to **Find My Thing**! These Terms and Conditions govern your use of the 
 - **User Responsibility**: You are responsible for ensuring the accuracy and privacy of the data you save in the App.  
 
 ## 3. Subscriptions and In-App Purchases  
-- The App offers **weekly, monthly, and quarterly subscriptions** that provide ad-free access and premium features.  
+- The App offers **weekly $4.99, monthly $14.99, and quarterly $34.99 subscriptions** that provide ad-free access and premium features.  
 - Payments are charged to your Apple ID account at confirmation of purchase.  
 - Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. You can manage subscriptions in your account settings.  
 - **Refunds**: All purchases are final and non-refundable, except as required by applicable law.  
