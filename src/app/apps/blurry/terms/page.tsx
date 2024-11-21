@@ -1,6 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import "./style.css"
+import "../style.css"
 
 const TermsPage = () => {
   const termsContent = `
