@@ -30,7 +30,7 @@ Welcome to **Find My Thing**! These Terms and Conditions govern your use of the 
 ## 5. Data Collection and Privacy  
 - **Data Storage**: All data saved in the App is stored locally on your device.  
 - **Third-Party Services**: The App integrates Firebase Analytics and AdMob anonymously to improve user experience and display relevant ads. No personally identifiable information is collected.  
-- For more details, please refer to our [Privacy Policy](https://gist.github.com/berkayoruc/a69b1caf1d060a0c78a174ac8c0ccd7d).  
+- For more details, please refer to our [Privacy Policy](https://hexaapps.net/apps/find-my-thing/privacy).  
 
 ## 6. Intellectual Property  
 All content, trademarks, and other intellectual property in the App are owned by Hexaapps and are protected under applicable Turkish laws and international agreements.  
