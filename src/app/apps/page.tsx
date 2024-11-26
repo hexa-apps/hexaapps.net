@@ -30,10 +30,33 @@ export default function Apps() {
             target="_blank"
           />
           <AppButton
+            appURL="https://www.npmjs.com/package/ardelon-create-element"
+            appName="Create Element"
+            description="Basic UI building npm library"
+            target="_blank"
+          />
+          <AppButton
+            appURL="https://chromewebstore.google.com/detail/tab-tracker/effjhkgfakdenmlpfeadfcdofghpffki"
+            appName="Tab Tracker"
+            description="Tab tracking chrome extension."
+            target="_blank"
+          />
+
+          <AppButton
             appURL="https://sandalyemisarjet.com/"
             appName="Sandalyemi Şarj Et"
             description="Belediyelerin ücretsiz şarj istasyonlarını bulun."
             target="_blank"
+          />
+          <AppButton
+            appURL="/apps/breather"
+            appName="Breather"
+            description="iOS app to help you about breathing exercises."
+          />
+          <AppButton
+            appURL="/apps/blurry"
+            appName="Blurry"
+            description="AI Text Editor allows you to quickly and easily detect and edit text within your images."
           />
         </div>
       </main>
